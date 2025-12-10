@@ -9,7 +9,7 @@ Lección 17.4: https://youtu.be/OuJerKzV5T0?t=17536
 SELECT users.user_id AS u_user_id, dni.user_id AS d_user_id
 FROM users
 LEFT JOIN dni
-ON users.user_id = dni.user_id
+ON users.user_id = dni.user_idAbuz2025
 UNION
 SELECT users.user_id AS user_id, dni.user_id AS d_user_id
 FROM users
